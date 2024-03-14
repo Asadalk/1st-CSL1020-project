@@ -16,7 +16,7 @@ void rule(int m)
     }
 
 }
-char makeboard(char a[16][16],int l)
+void makeboard(char a[16][16],int l)
 {
     for(int i=0;i<16;i++)
     for(int j=0;j<16;j++)
@@ -52,7 +52,7 @@ char makeboard(char a[16][16],int l)
     }
 }
 
-char printboard(char a[16][16])
+void printboard(char a[16][16])
 {
     for(int i=0;i<16;i++)
     {
