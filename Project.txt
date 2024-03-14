@@ -69,7 +69,7 @@ typedef struct position{
 }pos;
 
 //this is for movement
-char movement(char a[16][16],int m,pos *s)
+void movement(char a[16][16],int m,pos *s)
 {
     int u=s->x;
     int v=s->y;
@@ -195,9 +195,9 @@ int main()
             }
             else
             {
-		printf("Jazakallah Khair!");
-		exit(0);
-	    }
+                printf("Jazakallah Khair!");
+                exit(0);
+            }
         }
     }while(bd[15][15]!='P' && bd[s->x][s->y]!='*' && l<8);
     
